@@ -63,8 +63,6 @@ if (pos%2=='0'){
          
            place('1');   
            forpoints=setInterval(()=>{points++; score.innerHTML="Score :"+points;},100);
-           musq.play();
-           musq.loop = true;
            }
         }
         
@@ -208,8 +206,6 @@ function check1(bx,by,ox,ox2)
         cancelAnimationFrame(boxf);
         cancelAnimationFrame(boxb);
         clearInterval(forpoints);
-        musq.loop = false;
-        musq.load();
         gameover();
         
     }
@@ -222,8 +218,6 @@ function check2(bx,by,ox,ox2)
         cancelAnimationFrame(boxf);
         cancelAnimationFrame(boxb);
         clearInterval(forpoints);
-        musq.loop = false;
-        musq.load();
         gameover();
         
     }
