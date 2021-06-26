@@ -3,7 +3,6 @@
     margin-top:140px;
     background-color: rgb(38, 179, 160);
     text-align: center;
-    border-radius:4px
 }
 #scor,#Highscoreloc{
     font-size: 25px;
@@ -14,9 +13,8 @@
     position: absolute;
     top: 9%;
     right: 50%;
-    border-radius: 4px;
     background-color: rgb(38, 179, 160);
     font-size: 22px;
-    color:ivory;
+    color:white;
     left:100px;
 }
